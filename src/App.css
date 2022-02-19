@@ -45,6 +45,7 @@ body {
 .add-to-newsletter-title{
   text-align: right;
   background-color: #a77575;
+  margin-top: 2%;
   border-radius: 10%;
 }
 .navbar{

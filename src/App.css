@@ -1,0 +1,191 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+*{ margin: 0; padding: 0; }
+
+body { 
+    background: url('./assets/Sammy_Ofer.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.add-to-newsletter-title{
+  text-align: right;
+  background-color: #a77575;
+  border-radius: 10%;
+}
+.navbar{
+  background: linear-gradient(0deg, rgba(34,129,195,0.8211659663865546) 0%, rgba(10,6,38,0.7343312324929971) 100%);
+
+}
+footer {
+  position: fixed;
+  height: 50px;
+  background: linear-gradient(90deg, rgba(25,27,27,1) 0%, rgba(0,0,0,0.7679446778711485) 2%, rgba(26,28,28,0.6054796918767507) 98%);
+  bottom: 0;
+  width: 100%;
+  padding-top: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+}
+
+.user-greeting{
+  width: fit-content;
+  padding: 12px;
+  background: linear-gradient(346deg, rgba(57,170,24,0.7315301120448179) 0%, rgba(148,235,174,0.7679446778711485) 2%);
+  border-radius: 100px / 50px;
+  line-height: 100px;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.user-name{
+  text-align: center;
+  word-wrap: break-word;
+  color: rgb(21, 38, 112);
+}
+
+h1.upcoming-matches {
+  font-family: "Arial Black", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  opacity: 0.7;
+  letter-spacing: -1px;
+  background-color: black;
+  color: white;
+ }
+ .add-to-newsletter{
+background-color: rgb(240, 227, 227);
+ }
+
+ /* Table */
+
+ .styled-table {
+  border-collapse: collapse;
+  margin: 2px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  width: inherit;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #65b6db;
+  opacity: 0.7;
+}
+.styled-table tbody tr:nth-of-type(odd) {
+  background-color: #beafaa;
+  opacity: 0.7;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.loader{
+  width: 90%;
+  height: 50%;
+  margin: 5%;
+  border-radius: 50%;
+}
+
+
+
+.add-to-newsletter{
+  display: flex;
+  justify-content: flex-end;
+  /* position: fixed; */
+  height: 50px;
+  background-color:#746e80;
+  float: right;
+  /* right: 50%; */
+  margin-bottom: 60px;
+  /* margin-right: 3%; */
+  width: fit-content;
+  padding-top: 0.5%;
+  text-align: right;
+  padding-right: 1%;
+  color: rgb(30, 20, 44);
+  font-size: 1.2em;
+  border-radius: 13%;
+ }
+ .toggle-newsletter{
+   padding-left: 10px;
+ }
+
+
+@media only screen and (max-width: 767px) {
+  .add-to-newsletter{
+    position: fixed;
+    height: 50px;
+    background-color:#746e80;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 60px;
+    margin-right: 3%;
+    width: fit-content;
+    padding-top: 1%;
+    text-align: right;
+    padding-right: 1%;
+    color: rgb(30, 20, 44);
+    font-size: 1.2em;
+    border-radius: 13%;
+   }
+   /* .toggle-newsletter{
+     padding-left: 10px;
+   } */
+}

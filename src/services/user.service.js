@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8000/api/test/";
+// const API_URL = "http://localhost:8000/api/test/";
+const API_URL = "https://jam-alert-back.herokuapp.com/";
+
 
 const getPublicContent = () => {
   return axios.get(API_URL + "all");
